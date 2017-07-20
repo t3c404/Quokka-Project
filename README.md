@@ -1,5 +1,5 @@
 # Quokka-Project
-Experimental with Microservices. Thanks to [apox64](https://github.com/apox64) to provide the md5breaker!
+Experimental with Microservices. Thanks to [apox](https://github.com/apox64) to provide the md5breaker!
 
 ![alt text](https://github.com/t3c404/Quokka-Project/blob/master/png_files/frontend.png)
 ---
