@@ -10,7 +10,9 @@ $("#add_db").click(function() {
         $('#add_info').delay(2500).fadeOut(1000);
       },
       error: function() {
-          alert('Error while trying to add string to DB!\nIs the md5 Service running?');
+        $('#md5_not_available').fadeIn(1000);
+        $('#md5_not_available').delay(4000).fadeOut(1000);
+        //alert('Error while trying to add string to DB!\nIs the md5 Service running?');
       }
   });
 

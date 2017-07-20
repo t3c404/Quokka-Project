@@ -39,7 +39,9 @@ $(function() {
         //$results.append('<li>' + encode + '(' + $textfield.val() + ')' + ' : ' + newResult.result + ' </li>');
       },
       error: function() {
-        alert('base64: Service Not Available!');
+        $('#base64_not_available').fadeIn(1000);
+        $('#base64_not_available').delay(2000).fadeOut(1000);
+        //alert('base64: Service Not Available!');
       }
     });
 
@@ -52,7 +54,9 @@ $(function() {
       $results.append('<tr>' + '<td>' + $textfield.val() + '<td> base64 decode </td>'+ '<td>' + newResult.result + '</td>' + ' </tr>');
       },
       error: function() {
-        alert('base64: Service Not Available!');
+        $('#base64_not_available').fadeIn(1000);
+        $('#base64_not_available').delay(2000).fadeOut(1000);
+        //alert('base64: Service Not Available!');
       }
     });
 

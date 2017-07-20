@@ -42,7 +42,9 @@ $(function() {
       $results.append('<tr>' + '<td>' + newResult.hash + '<td> md5  </td>'+ '<td>' + newResult.clear + '</td>' + ' </tr>');
       },
       error: function() {
-        alert('md5: Service Not Available!');
+        $('#md5_not_available').fadeIn(1000);
+        $('#md5_not_available').delay(4000).fadeOut(1000);
+        //alert('md5: Service Not Available!');
       }
     });
 

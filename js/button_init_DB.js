@@ -8,8 +8,10 @@ $("#init_db").click(function() {
           $('#init_info').fadeIn(1000);
           $('#init_info').delay(2500).fadeOut(1000);
         },
-        error: function(result) {
-            alert('Error while trying to init DB\nIs the md5 Service running?');
+        error: function() {
+          $('#md5_not_available').fadeIn(1000);
+          $('#md5_not_available').delay(4000).fadeOut(1000);
+          //alert('Error while trying to init DB\nIs the md5 Service running?');
         }
     });
 });
