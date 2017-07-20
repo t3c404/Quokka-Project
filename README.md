@@ -8,8 +8,11 @@ Experimental with Microservices. Thanks to [apox](https://github.com/apox64) to 
 1. clone the repo: `git clone https://github.com/t3c404/Quokka-Project.git`
 2. clone the repo for the base64-decoder: `git clone https://github.com/t3c404/base64-decoder.git`
 3. clone the repo for the md5breaker: `git clone https://github.com/apox64/md5breaker.git`
-4. start both services (look at the README.md of both services)
-5. open the index.html and start to decode
+4. all repos have to be in the same directory, otherwise `docker-compose-build` does not work
+5. go to the Quokka-Projekt directory
+6. run: `docker-compose build`
+6. run: `docker-compose up`
+6. open the index.html and start to decode
 
 ## Usage
 
