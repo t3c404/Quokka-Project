@@ -12,7 +12,7 @@ $("#clear_db").click(function() {
           $('#clear_info').delay(2500).fadeOut(1000);
             },
         error: function(result) {
-            alert('Error while trying clearing DB');
+            alert('Error while trying clearing DB\nIs the md5 Service running?');
         }
     });
 
