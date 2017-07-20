@@ -1,0 +1,19 @@
+version: '3'
+services:
+  md5breaker:
+    container_name: md5breaker
+    build: ../md5breaker
+    ports:
+    - "5000:5000"
+    links:
+    - redis
+  redis:
+    container_name: redis
+    image: redis:latest
+    ports:
+    - "6379:6379"
+  base64:
+    container_name: base64
+    build: ../base64decoder
+    ports:
+     - "4000:4000"
