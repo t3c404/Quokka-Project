@@ -11,7 +11,7 @@ Experimental with Microservices. Thanks to [apox](https://github.com/apox64) to 
 4. start both services (look at the README.md of both services)
 5. open the index.html and start to decode
 
-## Manual
+## Usage
 
 1. **Break:** decode input
 2. **Add to DB:** hash the cleartext and add it to the database
