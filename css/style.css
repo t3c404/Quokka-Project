@@ -1,0 +1,58 @@
+#websiteTitel {
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Orbitron', sans-serif;
+	text-align: center;
+	color: blue;
+}
+
+h5 {
+	text-align: center;
+	color: blue;
+}
+
+#textfield {
+	text-align: center;
+}
+
+.button {
+	text-align: center;
+}
+
+.table {
+	table-layout: fixed;
+}
+
+td {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+}
+
+p {
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+	margin: -33px 150px auto 750px;
+	background-color: #F8F8FF;
+	padding: 5px;
+}
+
+/*#init_db_message {
+	border: solid 10px black;
+	background-color: lightyellow;
+	padding: 10px;
+	margin-top: -35px;
+	margin-right: 150px;
+	margin-left: 750px;
+}
+
+#clear_db_message {
+	border: solid 10px black;
+	background-color: lightyellow;
+	padding: 10px;
+	margin-top: -35px;
+	margin-right: 150px;
+	margin-left: 750px;
+}
+*/
