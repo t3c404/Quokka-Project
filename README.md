@@ -10,9 +10,9 @@ Experimental with Microservices. Thanks to [apox](https://github.com/apox64) to 
 3. clone the repo for the md5breaker: `git clone https://github.com/apox64/md5breaker.git`
 4. all repos have to be in the same directory, otherwise `docker-compose-build` does not work
 5. go to the Quokka-Projekt directory
-6. run: `docker-compose build`
+6. run: `docker-compose build` (just once)
 6. run: `docker-compose up`
-6. open the index.html and start to decode
+6. url: `0.0.0.0:5555`
 
 ## Usage
 
@@ -20,5 +20,3 @@ Experimental with Microservices. Thanks to [apox](https://github.com/apox64) to 
 2. **Add to DB:** hash the cleartext and add it to the database
 3. **Init DB:** load Database
 4. **Clear DB:** clear the database (no more md5 hashes in the database after clearing)
-
-## Webservice coming soon!
