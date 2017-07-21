@@ -9,10 +9,15 @@ Experimental with Microservices. Thanks to [apox](https://github.com/apox64) to 
 2. clone the repo for the base64-decoder: `git clone https://github.com/t3c404/base64-decoder.git`
 3. clone the repo for the md5breaker: `git clone https://github.com/apox64/md5breaker.git`
 4. all repos have to be in the same directory, otherwise `docker-compose-build` does not work
-5. go to the Quokka-Projekt directory
-6. run: `docker-compose build` (just once)
-6. run: `docker-compose up`
-6. service running at: `0.0.0.0:5555`
+
+---
+
+## Run with Docker-Compose
+1. install [docker-compose](https://docs.docker.com/compose/install/)
+2. go to the Quokka-Projekt directory
+3. run: `docker-compose build` (just once)
+4. run: `docker-compose up`
+5. service running at: `0.0.0.0:5555`
 
 ## Usage
 
