@@ -17,3 +17,8 @@ services:
     build: ../base64decoder
     ports:
      - "4000:4000"
+  quokka-project:
+    container_name: quokka-project
+    build: .
+    ports:
+    - "5555:5555"
