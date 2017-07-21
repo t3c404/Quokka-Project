@@ -19,6 +19,8 @@ Experimental with Microservices. Thanks to [apox](https://github.com/apox64) to 
 4. run: `docker-compose up`
 5. service running at: `0.0.0.0:5555`
 
+---
+
 ## Usage
 
 1. **Break:** decode input
