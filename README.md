@@ -12,7 +12,7 @@ Experimental with Microservices. Thanks to [apox](https://github.com/apox64) to 
 5. go to the Quokka-Projekt directory
 6. run: `docker-compose build` (just once)
 6. run: `docker-compose up`
-6. url: `0.0.0.0:5555`
+6. service running at: `0.0.0.0:5555`
 
 ## Usage
 
