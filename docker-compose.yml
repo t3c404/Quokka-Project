@@ -14,9 +14,14 @@ services:
     - "6379:6379"
   base64:
     container_name: base64
-    build: ../base64decoder
+    build: ../baseEncodings/base64decoder
     ports:
      - "4000:4000"
+  base16:
+    container_name: base16
+    build: ../baseEncodings/base16decoder
+    ports:
+     - "3000:3000"
   quokka-project:
     container_name: quokka-project
     build: .
