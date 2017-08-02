@@ -6,7 +6,7 @@ Experimental with Microservices. Thanks to [apox](https://github.com/apox64) to 
 
 ## Installation
 1. clone the repo: `git clone https://github.com/t3c404/Quokka-Project.git`
-2. clone the repo for the base64-decoder: `git clone https://github.com/t3c404/base64decoder.git`
+2. clone the repo for the base16, base64 encodings: `git clone https://github.com/t3c404/baseEncodings.git`
 3. clone the repo for the md5breaker: `git clone https://github.com/apox64/md5breaker.git`
 4. all repos have to be in the same directory, otherwise `docker-compose-build` does not work
 
