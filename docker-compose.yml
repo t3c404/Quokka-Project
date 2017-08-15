@@ -17,11 +17,16 @@ services:
     build: ../baseEncodings/base64decoder
     ports:
      - "4000:4000"
+  base32:
+    container_name: base32
+    build: ../baseEncodings/base32decoder
+    ports:
+     - "4001:4001"
   base16:
     container_name: base16
     build: ../baseEncodings/base16decoder
     ports:
-     - "3000:3000"
+     - "4002:4002"
   quokka-project:
     container_name: quokka-project
     build: .
