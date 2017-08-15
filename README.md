@@ -23,7 +23,7 @@ Experimental with Microservices. Thanks to [apox](https://github.com/apox64) to 
 
 ## Usage
 
-1. **Break:** decode input
+1. **Break:** decode the input string
 2. **Add to DB:** hash the cleartext and add it to the database
 3. **Init DB:** load Database
 4. **Clear DB:** clear the database (no more md5 hashes in the database after clearing)
